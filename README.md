@@ -10,7 +10,7 @@ Create a new `.gitignore` file in the current directory
 $ ./getignore Python
 ```
 
-Overwrite the existing `.gitignore` file with the fetched template
+Overwrite the existing `.gitignore` file
 
 ```bash
 $ ./getignore Python --force
@@ -21,7 +21,7 @@ $ ./getignore Python --force
 ### From Source
 
 ```bash
-$ git clone https://github.com/ethanavatar/getignore.git
+$ git clone https://github.com/ethanavatar/getignore-rs.git
 $ cd getignore
 $ cargo build --release
 ```
