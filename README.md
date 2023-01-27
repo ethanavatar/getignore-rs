@@ -1,4 +1,5 @@
-# getignore-rs &emsp; [![https://img.shields.io/crates/dv/getignore?label=crates.io]][crates.io]
+# getignore-rs &emsp; [![](https://img.shields.io/crates/dv/getignore?label=crates.io)](https://crates.io/crates/getignore)
+
 
 A CLI tool to fetch `.gitignore` file templates
 
