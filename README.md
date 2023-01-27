@@ -1,6 +1,6 @@
 # getignore-rs
 
-A tool to fetch a specified gitignore template
+A CLI tool to fetch `.gitignore` file templates
 
 ## Usage
 

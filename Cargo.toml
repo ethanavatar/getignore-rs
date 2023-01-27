@@ -1,5 +1,10 @@
 [package]
 name = "getignore"
+description = "A CLI tool to fetch `.gitignore` file templates"
+keywords = ["gitignore", "git", "ignore", "cli", "command-line"]
+license = "MIT"
+repository = "https://github.com/ethanavatar/getignore-rs"
+readme = "README.md"
 version = "0.1.0"
 edition = "2021"
 
