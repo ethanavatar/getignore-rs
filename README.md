@@ -8,13 +8,13 @@ A CLI tool to fetch `.gitignore` file templates
 Create a new `.gitignore` file in the current directory
 
 ```bash
-$ ./getignore Python
+$ getignore Python
 ```
 
 Overwrite the existing `.gitignore` file
 
 ```bash
-$ ./getignore Python --force
+$ getignore Python --force
 ```
 
 ## Installation
@@ -32,3 +32,7 @@ $ git clone https://github.com/ethanavatar/getignore-rs.git
 $ cd getignore
 $ cargo install --path .
 ```
+
+## TODO
+
+- [ ] Get rid of unwraps

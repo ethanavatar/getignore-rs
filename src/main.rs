@@ -15,7 +15,7 @@ struct Args {
     #[clap(short, long)]
     force: bool,
 
-    /// The template to fetch
+    /// The name of the template to fetch (case-sensitive)
     #[clap(required = true)]
     template_name: String,
 }
