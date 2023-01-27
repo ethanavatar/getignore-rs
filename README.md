@@ -32,7 +32,3 @@ $ git clone https://github.com/ethanavatar/getignore-rs.git
 $ cd getignore
 $ cargo install --path .
 ```
-
-## TODO
-
-- [ ] Get rid of unwraps
