@@ -18,12 +18,16 @@ $ ./getignore Python --force
 
 ## Installation
 
+### From Crates.io
+
+```bash
+$ cargo install getignore
+```
+
 ### From Source
 
 ```bash
 $ git clone https://github.com/ethanavatar/getignore-rs.git
 $ cd getignore
-$ cargo build --release
+$ cargo install --path .
 ```
-
-The binary is available at `target/release/getignore.exe`
