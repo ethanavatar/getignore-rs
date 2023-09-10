@@ -1,5 +1,4 @@
-# getignore-rs &emsp; [![](https://img.shields.io/crates/dv/getignore?label=crates.io)](https://crates.io/crates/getignore)
-
+# getignore-rs
 
 A CLI tool to fetch `.gitignore` file templates from [github/gitignore](https://github.com/github/gitignore).
 
@@ -19,16 +18,7 @@ $ getignore Python --force
 
 ## Installation
 
-### From Crates.io
-
+After installing Rust via [rustup](https://rustup.rs/). You can install using cargo:
 ```bash
-$ cargo install getignore
-```
-
-### From Source
-
-```bash
-$ git clone https://github.com/ethanavatar/getignore-rs.git
-$ cd getignore-rs
-$ cargo install --path .
+$ cargo install getignore --git https://github.com/ethanavatar/getignore-rs.git
 ```
